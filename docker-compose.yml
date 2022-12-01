@@ -1,0 +1,12 @@
+version: '1'
+services:
+  react-app:
+    image: absences-front-end-app
+    stdin_open: true
+    ports: 
+      - "3000:3000"
+
+  node-app:
+    image: absences-back-end-app
+    ports: 
+      - "5000:5000"

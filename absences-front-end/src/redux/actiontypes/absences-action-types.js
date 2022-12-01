@@ -1,0 +1,7 @@
+const absencesActionTypes = {
+    GET_ABSENCES_REQUEST: 'GET_ABSENCES_REQUEST',
+    GET_ABSENCES_SUCCESS: 'GET_ABSENCES_SUCCESS',
+    GET_ABSENCES_FAILURE: 'GET_ABSENCES_FAILURE'
+};
+
+export default absencesActionTypes;
